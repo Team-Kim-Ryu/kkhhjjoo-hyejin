@@ -1,4 +1,7 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+###### Likelion Front-end Bootcamp
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+# Project(CSS)
+
+멋쟁이 사자처럼 프론트엔드 부트캠프💕
+
+여러분의 팀 협업을 응원합니다. 화이팅 👏‼️
