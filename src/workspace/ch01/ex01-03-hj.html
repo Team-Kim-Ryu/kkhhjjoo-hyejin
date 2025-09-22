@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      console.log('Hello JavaScript - 1 ');
+      //버튼에 클릭 이벤트를  추가하자
+      window.addEventListener('load', function () {
+        var btn = document.querySelector('button');
+        btn.addEventListener('click', function () {
+          console.log('버튼클릭-1');
+        });
+      });
+      // load : html 코드 파싱이 완료된 후에 발생하는 이벤트
+    </script>
+    <script src="./ex01-03.js"></script>
+  </head>
+  <body>
+    <h1>Hello javascript</h1>
+    <button>클릭</button>
+    <script>
+      console.log('Hello JavaScript- 3');
+      var btn = document.querySelector('button');
+      btn.addEventListener('click', function () {
+        console.log('버튼클릭-3');
+      });
+    </script>
+    <!-- 타입 생략을 해도 자바스크립트로 인식해도 됨  -->
+  </body>
+</html>
