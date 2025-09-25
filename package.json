@@ -11,5 +11,19 @@
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "vite": "^6.3.6"
-  }
+  },
+  "version": "1.0.0",
+  "description": "멋쟁이 사자처럼 프론트엔드 부트캠프💕",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Kim-Ryu/kkhhjjoo-hyejin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Kim-Ryu/kkhhjjoo-hyejin/issues"
+  },
+  "homepage": "https://github.com/Team-Kim-Ryu/kkhhjjoo-hyejin#readme"
 }
