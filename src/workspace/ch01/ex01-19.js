@@ -17,13 +17,29 @@ switch(변수){
 // 0으로 나눌 경우 "0으로 나눌 수 없습니다." 출력
 // 잘못된 연산자를 입력할 경우 "잘못된 연산자입니다." 출력
 
-let operator = "+";
-let n1 = 10;
-let n2 = 20;
-
-// if문으로 작성
-
 // switch문으로 작성
+let operator = '%';  // 연산자 변수
+let n1 = 10;         // 첫 번째 숫자
+let n2 = 20;         // 두 번째 숫자
+let result = null;       //연산 결과
+
+switch (operator) {
+  case "+":
+    result = n1 + n2;
+    break;
+  case "-":
+    result = n1 - n2;
+    break;
+  case "*":
+    result = n1 * n2;
+    break;
+  case "/":
+    result = n1 / n2;
+    break;
+  default:
+    console.log("잘못된 연산자");
+}
+
 
 
 // 1~7 사이의 숫자를 입력받아 해당 요일을 출력하는 프로그램
@@ -33,7 +49,6 @@ let n2 = 20;
 let day = 3;
 let dayName = "";
 
-// if문으로 작성
 
 // switch문으로 작성
 
