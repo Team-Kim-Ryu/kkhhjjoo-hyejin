@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-      var btn = document.querySelector('button');
       console.log('Hello Javascript - 1');
-      document.addEventListener('click', function () {
-        console.log('버튼클릭 - 1');
-      });
+      window.addEventListener('load', function() {
+          var btn = document.querySelector('button');
+          btn.addEventListener('click', function () {
+          console.log('버튼클릭 - 1');
+        });
+      })
+      
     </script>
     <script src="ex01-03.js"></script>
   </head>
   <body>
-    <h1>Hello Javascript</h1>
+    <h1>Hello Javascript - 2</h1>
     <button>클릭</button>
 
     <script>
-      var btn = document.querySelector('button');
       console.log('Hello Javascript - 3');
-      document.addEventListener('click', function () {
+      var btn = document.querySelector('button');
+      btn.addEventListener('click', function () {
         console.log('버튼클릭 - 3');
       });
     </script>
